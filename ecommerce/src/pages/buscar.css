@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Arial, sans-serif;
+}
+  
+/* Fondo de imagen */
+.backgroundImage {
+    background-image: url('../../assets/ecommerce.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container {
+    padding: 60px 0; /* Mantener el padding vertical */
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0; /* Eliminar margen superior */
+    margin-bottom: 0; /* Eliminar margen inferior */
+    overflow-x: hidden; /* Ocultar desplazamiento horizontal */
+}
+  
+/* Contenedor del formulario */
+.formContainer_01 {
+    flex: 0.3;
+    background-color: #fff;
+    padding: 150px 50px;
+    border-radius: 10px;
+    margin: 0 150px; /* Reducido el margen horizontal a 5px */
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Título del formulario */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Texto descriptivo */
+.smallerText {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 0; /* Ajuste del margen superior */
+}
+
+/* Input de formulario */
+.input_01 {
+    width: 90%;
+    padding: 20px; /* Ajuste del padding para el input */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Contenedor de botones */
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Texto de enlace */
+.linkText {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    min-width: 300px; /* Establece una anchura mínima para el enlace */
+}
+
+/* Botón */
+.button {
+    padding: 10px 5px; /* Ajuste del padding horizontal */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.buttonText {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Texto de ayuda al final */
+.linkHelpText {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    text-align: left;
+    margin-top: auto; /* Empuja este elemento al fondo del contenedor */
+    margin-bottom: 0; /* Ajusta el margen inferior a 0 para que esté pegado a la parte inferior */
+}

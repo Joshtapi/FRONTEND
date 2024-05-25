@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .backgroundImage {
+    background-image: url('../../assets/ecommerce.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 60px 0; /* Mantener el padding vertical */
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0; /* Eliminar margen superior */
+    margin-bottom: 0; /* Eliminar margen inferior */
+    overflow-x: hidden; /* Ocultar desplazamiento horizontal */
+  }
+  
+  .textContainer {
+    flex: 1;
+    padding: 10px -10px;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  
+  .headerText {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 50px;
+  }
+  
+  .formContainer {
+    flex: 0.5;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 80px; /* Reducido el margen horizontal */
+  }
+  
+  /* Estilos de los elementos de la pantalla de recuperación de contraseña */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .smallerText {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .option-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .linkText {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; /* Eliminar subrayado */
+    margin-top: 10px;
+  }
+  

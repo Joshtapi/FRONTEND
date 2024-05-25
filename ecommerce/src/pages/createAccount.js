@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faFacebook, faWindows, faApple } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom'; // Importar Link desde React Router
 import './createAccount.css'; // Importar el archivo de estilos CSS correspondiente
 
 const SignUpScreen = ({ navigation }) => {
@@ -49,9 +50,10 @@ const SignUpScreen = ({ navigation }) => {
 
           <p className="registerWithEmail">Registrarse con el correo electrónico</p>
 
-          <button className="link" onClick={() => navigation.navigate('Login')}>
-            ¿Ya tienes una cuenta? Inicia sesión aquí
-          </button>
+          {/* Botón para crear una cuenta */}
+          <Link to="/Login" className="link">
+            <span className="link">¿Ya tienes una cuenta? Inicia sesión aquí</span>
+          </Link>
 
           <input
             className="input"

@@ -8,7 +8,7 @@
   }
   
   .container {
-    padding: 60px 0; /* Eliminado el margen horizontal */
+    padding: 10px 0; /* Eliminado el margen horizontal */
     display: flex;
     border-radius: 10px;
   }
@@ -27,13 +27,12 @@
   }
   
   .formContainer {
-    flex: 0.4;
+    flex: 0.5;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
-    margin: 0 5px; /* Reducido el margen horizontal a 5px */
+    margin: 0 5px;
   }
-  
   
   .title {
     font-size: 28px;
@@ -44,14 +43,15 @@
   
   .input {
     height: 40px;
-    width: calc(100% - 20px);
-    margin: 10px 0;
+    width: calc(100% - 60px); /* Reducido el valor del ancho */
+    margin: 20px 0;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #f9f9f9;
     color: #333;
   }
+  
   
   .button {
     width: 100%;
